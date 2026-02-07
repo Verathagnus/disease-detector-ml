@@ -1,0 +1,514 @@
+{
+  "age": {
+    "default": 51.0,
+    "min": 18.0,
+    "max": 84.0,
+    "type": "numeric"
+  },
+  "bmi": {
+    "default": 26.2,
+    "min": 15.0,
+    "max": 45.0,
+    "type": "numeric"
+  },
+  "vitamin_a_percent_rda": {
+    "default": 85.5,
+    "min": 10.0,
+    "max": 219.0,
+    "type": "numeric"
+  },
+  "vitamin_c_percent_rda": {
+    "default": 83.5,
+    "min": 10.0,
+    "max": 250.0,
+    "type": "numeric"
+  },
+  "vitamin_d_percent_rda": {
+    "default": 62.27,
+    "min": 7.0,
+    "max": 275.6,
+    "type": "numeric"
+  },
+  "vitamin_e_percent_rda": {
+    "default": 84.05,
+    "min": 10.0,
+    "max": 237.6,
+    "type": "numeric"
+  },
+  "vitamin_b12_percent_rda": {
+    "default": 55.6,
+    "min": 10.0,
+    "max": 243.6,
+    "type": "numeric"
+  },
+  "folate_percent_rda": {
+    "default": 84.8,
+    "min": 10.0,
+    "max": 226.6,
+    "type": "numeric"
+  },
+  "calcium_percent_rda": {
+    "default": 77.1,
+    "min": 10.0,
+    "max": 232.7,
+    "type": "numeric"
+  },
+  "iron_percent_rda": {
+    "default": 71.25,
+    "min": 10.0,
+    "max": 211.4,
+    "type": "numeric"
+  },
+  "hemoglobin_g_dl": {
+    "default": 14.1,
+    "min": 8.2,
+    "max": 18.0,
+    "type": "numeric"
+  },
+  "serum_vitamin_d_ng_ml": {
+    "default": 18.4,
+    "min": 5.0,
+    "max": 80.0,
+    "type": "numeric"
+  },
+  "serum_vitamin_b12_pg_ml": {
+    "default": 214.85000000000002,
+    "min": 100.0,
+    "max": 1138.1,
+    "type": "numeric"
+  },
+  "serum_folate_ng_ml": {
+    "default": 10.0,
+    "min": 2.0,
+    "max": 25.0,
+    "type": "numeric"
+  },
+  "symptoms_count": {
+    "default": 0.0,
+    "options": [
+      0.0,
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      6.0,
+      7.0,
+      8.0,
+      9.0
+    ],
+    "type": "fake_numeric_categorical",
+    "min": 0.0,
+    "max": 9.0
+  },
+  "has_night_blindness": {
+    "default": 0.0,
+    "options": [
+      0.0,
+      1.0
+    ],
+    "type": "fake_numeric_categorical",
+    "min": 0.0,
+    "max": 1.0
+  },
+  "has_fatigue": {
+    "default": 0.0,
+    "options": [
+      0.0,
+      1.0
+    ],
+    "type": "fake_numeric_categorical",
+    "min": 0.0,
+    "max": 1.0
+  },
+  "has_bleeding_gums": {
+    "default": 0.0,
+    "options": [
+      0.0,
+      1.0
+    ],
+    "type": "fake_numeric_categorical",
+    "min": 0.0,
+    "max": 1.0
+  },
+  "has_bone_pain": {
+    "default": 0.0,
+    "options": [
+      0.0,
+      1.0
+    ],
+    "type": "fake_numeric_categorical",
+    "min": 0.0,
+    "max": 1.0
+  },
+  "has_muscle_weakness": {
+    "default": 0.0,
+    "options": [
+      0.0,
+      1.0
+    ],
+    "type": "fake_numeric_categorical",
+    "min": 0.0,
+    "max": 1.0
+  },
+  "has_numbness_tingling": {
+    "default": 0.0,
+    "options": [
+      0.0,
+      1.0
+    ],
+    "type": "fake_numeric_categorical",
+    "min": 0.0,
+    "max": 1.0
+  },
+  "has_memory_problems": {
+    "default": 0.0,
+    "options": [
+      0.0,
+      1.0
+    ],
+    "type": "fake_numeric_categorical",
+    "min": 0.0,
+    "max": 1.0
+  },
+  "has_pale_skin": {
+    "default": 0.0,
+    "options": [
+      0.0,
+      1.0
+    ],
+    "type": "fake_numeric_categorical",
+    "min": 0.0,
+    "max": 1.0
+  },
+  "has_multiple_deficiencies": {
+    "default": 0.0,
+    "options": [
+      0.0,
+      1.0
+    ],
+    "type": "fake_numeric_categorical",
+    "min": 0.0,
+    "max": 1.0
+  },
+  "gender": {
+    "default": "Male",
+    "options": [
+      "Male",
+      "Female"
+    ],
+    "type": "categorical"
+  },
+  "smoking_status": {
+    "default": "Never",
+    "options": [
+      "Former",
+      "Never",
+      "Current"
+    ],
+    "type": "categorical"
+  },
+  "alcohol_consumption": {
+    "default": "Moderate",
+    "options": [
+      NaN,
+      "Moderate",
+      "Heavy"
+    ],
+    "type": "categorical"
+  },
+  "exercise_level": {
+    "default": "Sedentary",
+    "options": [
+      "Active",
+      "Light",
+      "Moderate",
+      "Sedentary"
+    ],
+    "type": "categorical"
+  },
+  "diet_type": {
+    "default": "Vegan",
+    "options": [
+      "Vegetarian",
+      "Omnivore",
+      "Pescatarian",
+      "Vegan"
+    ],
+    "type": "categorical"
+  },
+  "sun_exposure": {
+    "default": "Moderate",
+    "options": [
+      "High",
+      "Low",
+      "Moderate"
+    ],
+    "type": "categorical"
+  },
+  "income_level": {
+    "default": "High",
+    "options": [
+      "High",
+      "Low",
+      "Middle"
+    ],
+    "type": "categorical"
+  },
+  "latitude_region": {
+    "default": "Low",
+    "options": [
+      "Mid",
+      "Low",
+      "High"
+    ],
+    "type": "categorical"
+  },
+  "symptoms_list": {
+    "default": "numbness_tingling;memory_problems",
+    "options": [
+      NaN,
+      "bone_pain",
+      "dry_skin;night_blindness",
+      "numbness_tingling;memory_problems",
+      "numbness_tingling;dry_skin;night_blindness",
+      "bone_pain;memory_problems",
+      "bone_pain;muscle_weakness",
+      "fatigue",
+      "bone_pain;fatigue",
+      "pale_skin;fatigue",
+      "bone_pain;pale_skin;fatigue",
+      "pale_skin",
+      "numbness_tingling;memory_problems;fatigue",
+      "muscle_weakness",
+      "numbness_tingling;memory_problems;muscle_weakness",
+      "memory_problems;pale_skin;muscle_weakness",
+      "dry_skin;muscle_weakness;numbness_tingling;pale_skin;fatigue",
+      "numbness_tingling",
+      "numbness_tingling;dry_skin;muscle_weakness;night_blindness",
+      "bone_pain;memory_problems;muscle_weakness",
+      "muscle_weakness;numbness_tingling;memory_problems;pale_skin;fatigue",
+      "dry_skin;bone_pain;numbness_tingling;night_blindness;memory_problems",
+      "pale_skin;fatigue;muscle_weakness",
+      "memory_problems;fatigue",
+      "numbness_tingling;memory_problems;dry_skin;night_blindness",
+      "bone_pain;bleeding_gums;night_blindness;pale_skin;fatigue",
+      "memory_problems;pale_skin;fatigue;muscle_weakness",
+      "muscle_weakness;bone_pain;numbness_tingling;memory_problems;fatigue",
+      "bone_pain;muscle_weakness;night_blindness",
+      "bone_pain;numbness_tingling;muscle_weakness;memory_problems",
+      "bone_pain;bleeding_gums;fatigue",
+      "night_blindness",
+      "numbness_tingling;pale_skin",
+      "numbness_tingling;night_blindness",
+      "bone_pain;numbness_tingling",
+      "bone_pain;bleeding_gums;numbness_tingling;memory_problems;pale_skin;fatigue",
+      "dry_skin",
+      "muscle_weakness;bone_pain;numbness_tingling;memory_problems;pale_skin;fatigue",
+      "pale_skin;dry_skin;fatigue",
+      "bone_pain;fatigue;muscle_weakness",
+      "bone_pain;numbness_tingling;muscle_weakness",
+      "bone_pain;pale_skin;fatigue;muscle_weakness",
+      "numbness_tingling;pale_skin;fatigue",
+      "dry_skin;fatigue;night_blindness",
+      "numbness_tingling;pale_skin;fatigue;night_blindness",
+      "bone_pain;numbness_tingling;memory_problems",
+      "bone_pain;numbness_tingling;pale_skin;fatigue",
+      "numbness_tingling;memory_problems;pale_skin;fatigue",
+      "muscle_weakness;bone_pain;numbness_tingling;pale_skin;fatigue",
+      "bone_pain;numbness_tingling;fatigue;muscle_weakness",
+      "bone_pain;memory_problems;fatigue",
+      "muscle_weakness;bone_pain;night_blindness;pale_skin;fatigue",
+      "numbness_tingling;fatigue",
+      "bone_pain;numbness_tingling;fatigue",
+      "dry_skin;muscle_weakness;numbness_tingling;night_blindness;memory_problems;pale_skin",
+      "dry_skin;muscle_weakness;bone_pain;night_blindness;memory_problems;pale_skin;fatigue",
+      "numbness_tingling;memory_problems;muscle_weakness;night_blindness",
+      "numbness_tingling;bleeding_gums;fatigue;memory_problems",
+      "fatigue;night_blindness",
+      "memory_problems;muscle_weakness",
+      "dry_skin;numbness_tingling;night_blindness;memory_problems;fatigue",
+      "bleeding_gums;fatigue;memory_problems",
+      "dry_skin;bone_pain;numbness_tingling;night_blindness;memory_problems;pale_skin;fatigue",
+      "bone_pain;dry_skin;muscle_weakness;night_blindness",
+      "bone_pain;numbness_tingling;fatigue;memory_problems",
+      "numbness_tingling;pale_skin;dry_skin;night_blindness",
+      "numbness_tingling;memory_problems;pale_skin",
+      "memory_problems;pale_skin;fatigue",
+      "muscle_weakness;numbness_tingling;night_blindness;memory_problems;pale_skin;fatigue",
+      "memory_problems",
+      "bone_pain;memory_problems;pale_skin;fatigue",
+      "numbness_tingling;dry_skin;fatigue;night_blindness",
+      "muscle_weakness;bone_pain;night_blindness;memory_problems;fatigue",
+      "bleeding_gums;pale_skin;fatigue",
+      "bone_pain;memory_problems;dry_skin;night_blindness",
+      "bone_pain;dry_skin;fatigue;night_blindness",
+      "numbness_tingling;memory_problems;fatigue;muscle_weakness",
+      "numbness_tingling;memory_problems;pale_skin;muscle_weakness",
+      "bone_pain;numbness_tingling;night_blindness;memory_problems;pale_skin;fatigue",
+      "bone_pain;bleeding_gums",
+      "muscle_weakness;bone_pain;bleeding_gums;numbness_tingling;fatigue",
+      "pale_skin;fatigue;night_blindness",
+      "bleeding_gums;night_blindness",
+      "dry_skin;muscle_weakness;bone_pain;numbness_tingling;night_blindness;memory_problems",
+      "fatigue;muscle_weakness",
+      "numbness_tingling;muscle_weakness",
+      "bone_pain;bleeding_gums;pale_skin;fatigue",
+      "muscle_weakness;bone_pain;bleeding_gums;numbness_tingling;memory_problems;pale_skin;fatigue",
+      "bleeding_gums;fatigue;night_blindness",
+      "muscle_weakness;numbness_tingling;night_blindness;pale_skin;fatigue",
+      "dry_skin;bone_pain;bleeding_gums;night_blindness;fatigue",
+      "muscle_weakness;numbness_tingling;bleeding_gums;memory_problems;fatigue",
+      "bleeding_gums;fatigue",
+      "memory_problems;dry_skin;night_blindness",
+      "dry_skin;night_blindness;memory_problems;pale_skin;fatigue",
+      "bone_pain;pale_skin",
+      "muscle_weakness;bone_pain;numbness_tingling;memory_problems;pale_skin",
+      "bone_pain;numbness_tingling;dry_skin;memory_problems",
+      "dry_skin;muscle_weakness;night_blindness",
+      "dry_skin;numbness_tingling;memory_problems;pale_skin;fatigue",
+      "bone_pain;pale_skin;muscle_weakness",
+      "numbness_tingling;memory_problems;night_blindness",
+      "muscle_weakness;bone_pain;numbness_tingling;night_blindness;memory_problems;pale_skin;fatigue",
+      "dry_skin;muscle_weakness;bone_pain;numbness_tingling;night_blindness;memory_problems;pale_skin;fatigue",
+      "dry_skin;muscle_weakness;night_blindness;pale_skin;fatigue",
+      "numbness_tingling;night_blindness;memory_problems;pale_skin;fatigue",
+      "bone_pain;numbness_tingling;memory_problems;pale_skin;fatigue",
+      "numbness_tingling;bleeding_gums;fatigue",
+      "numbness_tingling;fatigue;muscle_weakness",
+      "bone_pain;night_blindness;memory_problems;pale_skin;fatigue",
+      "numbness_tingling;pale_skin;muscle_weakness;night_blindness",
+      "bleeding_gums",
+      "dry_skin;muscle_weakness;bone_pain;bleeding_gums;night_blindness;pale_skin;fatigue",
+      "memory_problems;night_blindness",
+      "bone_pain;bleeding_gums;fatigue;muscle_weakness",
+      "bone_pain;numbness_tingling;dry_skin;night_blindness",
+      "bone_pain;dry_skin",
+      "muscle_weakness;bone_pain;numbness_tingling;night_blindness;memory_problems;fatigue",
+      "dry_skin;numbness_tingling;bleeding_gums;memory_problems;fatigue",
+      "numbness_tingling;pale_skin;dry_skin;fatigue",
+      "bone_pain;bleeding_gums;fatigue;numbness_tingling",
+      "pale_skin;muscle_weakness",
+      "memory_problems;fatigue;muscle_weakness",
+      "muscle_weakness;bleeding_gums;memory_problems;pale_skin;fatigue",
+      "dry_skin;muscle_weakness;bone_pain;bleeding_gums;numbness_tingling;night_blindness;memory_problems;fatigue",
+      "pale_skin;dry_skin;fatigue;night_blindness",
+      "bone_pain;memory_problems;night_blindness",
+      "bone_pain;numbness_tingling;muscle_weakness;night_blindness",
+      "bone_pain;bleeding_gums;muscle_weakness",
+      "numbness_tingling;bleeding_gums;night_blindness;pale_skin;fatigue",
+      "dry_skin;muscle_weakness;numbness_tingling;night_blindness;memory_problems",
+      "bone_pain;numbness_tingling;night_blindness;memory_problems;fatigue",
+      "dry_skin;muscle_weakness;bone_pain;night_blindness;pale_skin;fatigue",
+      "numbness_tingling;pale_skin;fatigue;muscle_weakness",
+      "pale_skin;dry_skin;night_blindness",
+      "numbness_tingling;bleeding_gums;night_blindness;memory_problems;fatigue",
+      "dry_skin;muscle_weakness;bone_pain;numbness_tingling;night_blindness;memory_problems;fatigue",
+      "dry_skin;bone_pain;bleeding_gums;numbness_tingling;night_blindness;memory_problems;fatigue",
+      "dry_skin;muscle_weakness;numbness_tingling;night_blindness;pale_skin",
+      "dry_skin;numbness_tingling;night_blindness;memory_problems;pale_skin;fatigue",
+      "pale_skin;fatigue;muscle_weakness;night_blindness",
+      "muscle_weakness;numbness_tingling;bleeding_gums;night_blindness;memory_problems",
+      "dry_skin;muscle_weakness;bone_pain;night_blindness;fatigue",
+      "muscle_weakness;bone_pain;numbness_tingling;night_blindness;pale_skin",
+      "numbness_tingling;memory_problems;pale_skin;night_blindness",
+      "dry_skin;muscle_weakness;bone_pain;numbness_tingling;night_blindness;fatigue",
+      "memory_problems;dry_skin;fatigue;night_blindness",
+      "muscle_weakness;bone_pain;numbness_tingling;night_blindness;memory_problems",
+      "bone_pain;numbness_tingling;night_blindness;memory_problems",
+      "bone_pain;memory_problems;dry_skin",
+      "numbness_tingling;bleeding_gums;memory_problems;pale_skin;fatigue",
+      "muscle_weakness;bone_pain;memory_problems;pale_skin;fatigue",
+      "muscle_weakness;bone_pain;bleeding_gums;numbness_tingling;memory_problems;fatigue",
+      "bleeding_gums;pale_skin;fatigue;muscle_weakness",
+      "bone_pain;numbness_tingling;pale_skin",
+      "bone_pain;memory_problems;pale_skin",
+      "dry_skin;muscle_weakness;numbness_tingling;night_blindness;fatigue",
+      "bone_pain;memory_problems;fatigue;muscle_weakness",
+      "bleeding_gums;fatigue;muscle_weakness",
+      "dry_skin;muscle_weakness;bone_pain;numbness_tingling;night_blindness",
+      "dry_skin;muscle_weakness;bone_pain;numbness_tingling;memory_problems",
+      "muscle_weakness;night_blindness",
+      "pale_skin;night_blindness",
+      "dry_skin;muscle_weakness;numbness_tingling;night_blindness;memory_problems;fatigue",
+      "numbness_tingling;bleeding_gums",
+      "dry_skin;bleeding_gums;night_blindness;pale_skin;fatigue",
+      "bone_pain;numbness_tingling;pale_skin;memory_problems",
+      "numbness_tingling;bleeding_gums;pale_skin;fatigue",
+      "fatigue;muscle_weakness;night_blindness",
+      "numbness_tingling;bleeding_gums;memory_problems",
+      "numbness_tingling;memory_problems;dry_skin;muscle_weakness",
+      "numbness_tingling;dry_skin",
+      "bone_pain;night_blindness",
+      "dry_skin;numbness_tingling;night_blindness;pale_skin;fatigue",
+      "bone_pain;bleeding_gums;dry_skin;muscle_weakness",
+      "pale_skin;muscle_weakness;night_blindness",
+      "bone_pain;dry_skin;muscle_weakness",
+      "bone_pain;numbness_tingling;pale_skin;muscle_weakness",
+      "dry_skin;numbness_tingling;bleeding_gums;night_blindness;memory_problems;fatigue",
+      "dry_skin;muscle_weakness;bone_pain;numbness_tingling;night_blindness;pale_skin;fatigue",
+      "dry_skin;muscle_weakness;bone_pain;numbness_tingling;night_blindness;pale_skin",
+      "dry_skin;muscle_weakness;bone_pain;bleeding_gums;numbness_tingling;night_blindness;memory_problems;pale_skin;fatigue",
+      "dry_skin;numbness_tingling;bleeding_gums;night_blindness;memory_problems;pale_skin;fatigue",
+      "muscle_weakness;numbness_tingling;night_blindness;memory_problems;pale_skin",
+      "bone_pain;bleeding_gums;numbness_tingling;memory_problems;fatigue",
+      "dry_skin;muscle_weakness;bone_pain;numbness_tingling;memory_problems;pale_skin",
+      "muscle_weakness;bleeding_gums;night_blindness;memory_problems;pale_skin;fatigue",
+      "bone_pain;memory_problems;pale_skin;muscle_weakness",
+      "muscle_weakness;numbness_tingling;bleeding_gums;memory_problems;pale_skin;fatigue",
+      "bleeding_gums;pale_skin;fatigue;memory_problems",
+      "pale_skin;dry_skin;fatigue;muscle_weakness",
+      "bone_pain;fatigue;muscle_weakness;night_blindness",
+      "bone_pain;dry_skin;night_blindness",
+      "muscle_weakness;numbness_tingling;night_blindness;memory_problems;fatigue",
+      "bone_pain;bleeding_gums;numbness_tingling;muscle_weakness",
+      "dry_skin;muscle_weakness;bone_pain;bleeding_gums;night_blindness;memory_problems;pale_skin;fatigue",
+      "dry_skin;bone_pain;night_blindness;memory_problems;pale_skin;fatigue",
+      "bleeding_gums;dry_skin;fatigue;night_blindness",
+      "bone_pain;bleeding_gums;numbness_tingling;pale_skin;fatigue",
+      "numbness_tingling;pale_skin;muscle_weakness",
+      "bone_pain;bleeding_gums;muscle_weakness;memory_problems",
+      "dry_skin;fatigue",
+      "bone_pain;bleeding_gums;fatigue;memory_problems",
+      "muscle_weakness;bone_pain;bleeding_gums;numbness_tingling;night_blindness;pale_skin",
+      "dry_skin;muscle_weakness;bone_pain;pale_skin;fatigue",
+      "bone_pain;memory_problems;dry_skin;muscle_weakness",
+      "dry_skin;muscle_weakness;numbness_tingling;night_blindness;pale_skin;fatigue",
+      "numbness_tingling;memory_problems;fatigue;night_blindness",
+      "numbness_tingling;fatigue;night_blindness",
+      "dry_skin;muscle_weakness;bone_pain;memory_problems;pale_skin;fatigue",
+      "muscle_weakness;bone_pain;night_blindness;memory_problems;pale_skin;fatigue",
+      "muscle_weakness;bone_pain;bleeding_gums;memory_problems;pale_skin",
+      "dry_skin;muscle_weakness;bone_pain;night_blindness;memory_problems",
+      "muscle_weakness;bone_pain;numbness_tingling;night_blindness;memory_problems;pale_skin",
+      "bone_pain;pale_skin;fatigue;night_blindness",
+      "dry_skin;bone_pain;bleeding_gums;numbness_tingling;night_blindness;fatigue",
+      "memory_problems;pale_skin",
+      "bleeding_gums;memory_problems",
+      "muscle_weakness;bone_pain;bleeding_gums;memory_problems;pale_skin;fatigue",
+      "dry_skin;bone_pain;numbness_tingling;night_blindness;memory_problems;fatigue",
+      "dry_skin;numbness_tingling;bleeding_gums;night_blindness;fatigue",
+      "dry_skin;muscle_weakness;bone_pain;night_blindness;memory_problems;fatigue",
+      "dry_skin;muscle_weakness;numbness_tingling;memory_problems;pale_skin;fatigue",
+      "bone_pain;bleeding_gums;memory_problems;pale_skin;fatigue",
+      "numbness_tingling;memory_problems;dry_skin;pale_skin",
+      "muscle_weakness;bone_pain;numbness_tingling;night_blindness;pale_skin;fatigue",
+      "muscle_weakness;bone_pain;bleeding_gums;numbness_tingling;night_blindness;memory_problems;fatigue",
+      "dry_skin;muscle_weakness;bone_pain;bleeding_gums;fatigue",
+      "numbness_tingling;memory_problems;dry_skin;fatigue",
+      "numbness_tingling;memory_problems;dry_skin",
+      "memory_problems;pale_skin;fatigue;night_blindness",
+      "dry_skin;muscle_weakness;night_blindness;memory_problems;fatigue",
+      "bone_pain;memory_problems;muscle_weakness;night_blindness",
+      "dry_skin;muscle_weakness",
+      "bone_pain;numbness_tingling;dry_skin;muscle_weakness",
+      "dry_skin;muscle_weakness;bone_pain;bleeding_gums;numbness_tingling;night_blindness;pale_skin;fatigue",
+      "bleeding_gums;fatigue;night_blindness;memory_problems",
+      "dry_skin;numbness_tingling;bleeding_gums;night_blindness;memory_problems",
+      "dry_skin;muscle_weakness;bone_pain;numbness_tingling;memory_problems;pale_skin;fatigue",
+      "numbness_tingling;bleeding_gums;fatigue;night_blindness",
+      "dry_skin;bone_pain;numbness_tingling;memory_problems;pale_skin;fatigue"
+    ],
+    "type": "categorical"
+  }
+}
