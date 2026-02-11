@@ -3,7 +3,10 @@
 Deliverables:
 ## 1.  GitHub Repository Link: [https://github.com/verathagnus/disease-detector-ml/](https://github.com/verathagnus/disease-detector-ml/)
 ## 2. Live Streamlit App Link: [https://disease-detector-ml.streamlit.app/](https://disease-detector-ml.streamlit.app/)
-## 
+## 3. Running application on BITS Lab Screenshot
+![BITS Lab Screenshot](BITS_Lab_Screenshot.png)
+<div style="page-break-before: always;"></div>
+
 ## 4. Content of the README.md file is given in the following section 
 ## a. Problem Statement
 
@@ -74,6 +77,7 @@ This is a multi-class classification problem where we need to accurately classif
 - Identified and converted pseudo numeric columns to categorical (Values are numeric but fixed discrete values only)
 - Applied one-hot encoding for categorical features
 - Used MinMaxScaler for feature scaling
+<div style="page-break-before: always;"></div>
 
 ## c. Models Used
 
@@ -120,6 +124,9 @@ Seven machine learning classification models were implemented and evaluated:
 - **Naive Bayes:** Multinomial variant (80.00%) significantly outperforms Gaussian (54.25%), highlighting the importance of appropriate distribution assumptions.
 - **Feature Engineering:** Preprocessing steps (fake numeric handling, one-hot encoding, scaling) were needed to incorporate all features appropriately.
 
+
+<div style="page-break-before: always;"></div>
+
 ## Repository Structure
 
 ```
@@ -162,6 +169,8 @@ cd disease-detector-ml
 ```bash
 pip install -r requirements.txt
 ```
+
+<div style="page-break-before: always;"></div>
 
 3. Terminal Based Usage
 
